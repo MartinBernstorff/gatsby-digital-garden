@@ -18,7 +18,6 @@ module.exports = (options) => {
       siteUrl: `http://example.com/`,
     },
     plugins: [
-      !mdxOtherwiseConfigured && `gatsby-plugin-sharp`,
       !mdxOtherwiseConfigured && `gatsby-remark-images`,
       !mdxOtherwiseConfigured && {
         resolve: `gatsby-plugin-mdx`,
